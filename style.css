@@ -1,0 +1,18 @@
+body{
+   /* Este es un comentario */ 
+   /*  */
+    background-color: rgb(250, 233, 242);
+}
+h3 {color: #750332;}
+h1 {color: blueviolet; accent-color: ;}
+img{
+    /* cambiar tamaño de imag- anchura pixeles px y porcentaje % */
+    width: 40%;
+    /* bordes redondeados  */
+    border-radius: 8px;
+}
+.perrin {
+    width: 20
+
+    ;
+}
