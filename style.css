@@ -1,18 +1,69 @@
-body{
-   /* Este es un comentario */ 
-   /*  */
-    background-color: rgb(250, 233, 242);
+/* Estilos generales para el cuerpo */
+body {
+    background-color: rgb(250, 233, 242); /* Fondo rosado claro */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
-h3 {color: #750332;}
-h1 {color: blueviolet; accent-color: ;}
-img{
-    /* cambiar tamaño de imag- anchura pixeles px y porcentaje % */
-    width: 40%;
-    /* bordes redondeados  */
-    border-radius: 8px;
-}
-.perrin {
-    width: 20
 
-    ;
+/* Estilos para los encabezados */
+h1 {
+    color: blueviolet;
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Espacio superior */
+}
+
+h3 {
+    color: #750332;
+    margin: 20px 0 10px 0; /* Espacio superior e inferior */
+}
+
+/* Estilos para las imágenes */
+img {
+    width: 40%; /* Tamaño relativo a su contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    display: block; /* Hace que las imágenes se comporten como bloques */
+    margin: 10px auto; /* Centra la imagen horizontalmente */
+}
+
+.perrin {
+    width: 20%; /* Tamaño específico para imágenes con clase .perrin */
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilos para el contenedor de navegación */
+nav {
+    text-align: center; /* Centrar los enlaces de navegación */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+nav a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #750332; /* Color del texto */
+    margin: 0 15px; /* Espaciado entre enlaces */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Estilos para las listas */
+ol, ul {
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 600px; /* Ancho máximo de las listas */
+}
+
+li {
+    margin-bottom: 10px; /* Espacio inferior entre elementos de lista */
+}
+
+/* Estilos para los párrafos */
+p {
+    max-width: 600px; /* Ancho máximo de los párrafos */
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: justify; /* Justificar el texto */
 }
